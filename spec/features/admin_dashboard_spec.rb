@@ -27,6 +27,5 @@ describe "admin dashboard" do
     visit admin_root_path
 
     expect(current_path).to eq(admin_root_path)
-
   end
 end
