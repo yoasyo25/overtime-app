@@ -15,3 +15,5 @@ class User < ApplicationRecord
   end
 
 end
+
+SmsTool.send_sms(number: '2028319213', message: "Does this work?")
