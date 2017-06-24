@@ -7,7 +7,6 @@ describe 'navigate' do
     Post.create(date: Date.today, rationale: "rationale", user_id: user.id)
   end
 
-
   before do
     login_as(user, :scope => :user)
   end
